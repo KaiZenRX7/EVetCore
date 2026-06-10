@@ -1,0 +1,13 @@
+# Propios de la compilación de .NET
+bin/
+obj/
+
+# Archivos de configuración de VS Code y Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Temporales del sistema operativo
+Thumbs.db
+.DS_Store

@@ -12,13 +12,16 @@
         <Nullable>enable</Nullable>
         <MauiXamlInflator>SourceGen</MauiXamlInflator>
 
-        <ApplicationTitle>EVetCore Base</ApplicationTitle>
-        <ApplicationId>com.seba.evet.base</ApplicationId>
+        <ApplicationTitle>EVetCore - Pupis Michi</ApplicationTitle>
+        <ApplicationId>com.pupismichis.evetcore.app</ApplicationId>
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
         <ApplicationVersion>1</ApplicationVersion>
         <WindowsPackageType>None</WindowsPackageType>
         <AndroidSdkDirectory>C:\Users\Sebas\AppData\Local\Android\Sdk</AndroidSdkDirectory>
         <JavaSdkDirectory>C:\Program Files\Android\Android Studio\jbr</JavaSdkDirectory>
+
+        <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+        <WindowsPackageType>None</WindowsPackageType>
 
         <TargetPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">36.0</TargetPlatformVersion>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">30.0</SupportedOSPlatformVersion>
@@ -29,8 +32,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-        <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+        <MauiIcon Include="Resources\AppIcon\appicon.png" />
+        
         <MauiImage Include="Resources\Images\*" />
         <MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
         <MauiFont Include="Resources\Fonts\*" />
