@@ -12,8 +12,8 @@
         <Nullable>enable</Nullable>
         <MauiXamlInflator>SourceGen</MauiXamlInflator>
 
-        <ApplicationTitle>Veterinaria.App</ApplicationTitle>
-        <ApplicationId>com.companyname.veterinaria.app</ApplicationId>
+        <ApplicationTitle>EVetCore Base</ApplicationTitle>
+        <ApplicationId>com.seba.evet.base</ApplicationId>
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
         <ApplicationVersion>1</ApplicationVersion>
         <WindowsPackageType>None</WindowsPackageType>
