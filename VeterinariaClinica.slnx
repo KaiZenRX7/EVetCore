@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Veterinaria.API/Veterinaria.API.csproj" />
+    <Project Path="src/Veterinaria.App/Veterinaria.App.csproj" />
+    <Project Path="src/Veterinaria.Shared/Veterinaria.Shared.csproj" />
+  </Folder>
+</Solution>

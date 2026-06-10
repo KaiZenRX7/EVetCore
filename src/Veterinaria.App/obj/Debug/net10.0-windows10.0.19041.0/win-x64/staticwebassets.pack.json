@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\SistemaPM\\VeterinariaClinica\\src\\Veterinaria.App\\obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\scopedcss\\bundle\\Veterinaria.App.styles.css",
+      "PackagePath": "staticwebassets\\Veterinaria.App.styles.css"
+    },
+    {
+      "Id": "C:\\SistemaPM\\VeterinariaClinica\\src\\Veterinaria.App\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\SistemaPM\\VeterinariaClinica\\src\\Veterinaria.App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\SistemaPM\\VeterinariaClinica\\src\\Veterinaria.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\SistemaPM\\VeterinariaClinica\\src\\Veterinaria.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sebas\\.nuget\\packages\\microsoft.aspnetcore.components.webview\\10.0.0\\staticwebassets\\blazor.modules.json",
+      "PackagePath": "staticwebassets\\_framework\\blazor.modules.json"
+    },
+    {
+      "Id": "C:\\Users\\Sebas\\.nuget\\packages\\microsoft.aspnetcore.components.webview\\10.0.0\\staticwebassets\\blazor.webview.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webview.js"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\staticwebassets\\msbuild.Veterinaria.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\staticwebassets\\msbuild.Veterinaria.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\staticwebassets\\msbuild.build.Veterinaria.App.props",
+      "PackagePath": "build\\Veterinaria.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\staticwebassets\\msbuild.buildMultiTargeting.Veterinaria.App.props",
+      "PackagePath": "buildMultiTargeting\\Veterinaria.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\staticwebassets\\msbuild.buildTransitive.Veterinaria.App.props",
+      "PackagePath": "buildTransitive\\Veterinaria.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
