@@ -22,6 +22,11 @@ public class DocumentoMascota
     public TipoDocumento Tipo { get; set; }
 
     public string Notas { get; set; } = string.Empty; // Ej: "Se observa reducción del 20% tras tratamiento"
+
+    // Trazabilidad y Auditoría (RBAC)
+    public Guid CreadoPorUsuarioId { get; set; }
+    public Guid? ModificadoPorUsuarioId { get; set; }
+    public DateTime? FechaUltimaModificacion { get; set; }
 }
 
 public enum TipoDocumento
