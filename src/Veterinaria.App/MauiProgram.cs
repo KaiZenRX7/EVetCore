@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using Veterinaria.App.Data;
 
 namespace Veterinaria.App;
 
@@ -21,6 +23,11 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 #endif
 
+	// Configuración estricta para SQLite local (Offline-First)
+	string dbPath = Path.Combine(FileSystem.AppDataDirectory, "veterinaria_local.db");
+
+	builder.Services.AddDbContext<Data.VeterinariaDbContext>(options =>
+		options.UseSqlite($"Filename={dbPath}"));
 		return builder.Build();
 	}
 }
